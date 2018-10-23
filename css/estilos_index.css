@@ -31,7 +31,7 @@ p{
   width: 900px;
   background: #02010a;
   font-family: 'Dancing';
-
+  animation: rebote 1s;
 }
 
 /*===================================|
@@ -211,5 +211,20 @@ figcaption a{
   .pie{
     width: 100%;
     margin-left: 2em;
+  }
+}
+
+/*===================================|
+|            Animaciones             |
+|===================================*/
+@keyframes rebote {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -15%;
+  }
+  100%{
+    margin-top: 0;
   }
 }
