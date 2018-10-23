@@ -1,0 +1,35 @@
+/*===================================|
+|        Tipografía del texto        |
+|===================================*/
+@font-face {
+  font-family: 'Dancing';
+  src: url("../fonts/DancingScript-Regular.otf");
+}
+
+/*===================================|
+|         Estilos Generales          |
+|===================================*/
+html{
+  background: #02010a;
+}
+
+img{
+  box-shadow: 2px 2px 0 #02010a;
+}
+
+p{
+  font-size: 1em;
+}
+
+/*===================================|
+|        Cuerpo de la página         |
+|===================================*/
+#contenido{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px;
+  background: #02010a;
+  font-family: 'Dancing';
+
+}
