@@ -56,3 +56,15 @@ p{
   margin-right: 0.5em;
   margin-top: 2em;
 }
+
+/*===================================|
+|        Barra de Navegación         |
+|===================================*/
+nav a{
+  color: white;
+  font-size: 1em;
+}
+
+.enlace{
+  text-decoration: none;
+}
