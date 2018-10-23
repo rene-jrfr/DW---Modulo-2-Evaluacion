@@ -33,3 +33,26 @@ p{
   font-family: 'Dancing';
 
 }
+
+/*===================================|
+|              Cabecera               |
+|===================================*/
+#encabezado{
+  background: #5b7989;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#encabezado h1{
+  float: left;
+  color: white;
+  text-shadow: 0 0 2px #02010a;
+  margin-left: 0.5em;
+}
+
+#encabezado nav{
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 2em;
+}
