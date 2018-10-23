@@ -150,3 +150,66 @@ figcaption a{
   color: black;
   text-decoration: none;
 }
+
+/*===================================|
+|           Media Queries            |
+|===================================*/
+
+@media (max-width:900px) {
+
+  /* Cuerpo de página */
+  #contenido{
+    width: 100%;
+  }
+
+  /* Cabecera */
+  #encabezado{
+    text-align: center;
+  }
+  #encabezado h1{
+    float: none;
+    margin: 0 1em 0 1em;
+    margin-top: 0.5em;
+  }
+  #encabezado nav{
+    float: none;
+    margin: 1em 0 1em 0;
+  }
+
+  /* Sección Secundaria */
+  #cont_secundario{
+    flex-direction: column;
+    text-align: center;
+  }
+  .imgSecundarias{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .imgSecundarias img{
+    width: 100%;
+    height: 90%;
+  }
+
+  #imgIzq{
+    float: none;
+  }
+
+  #imgDer{
+    float: none;
+  }
+
+  #imgDer figcaption{
+    margin-bottom: 1em;
+  }
+
+  /* Pie de Página */
+  #cont_footer{
+    flex-flow: column nowrap;
+  }
+
+  .pie{
+    width: 100%;
+    margin-left: 2em;
+  }
+}
