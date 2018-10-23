@@ -20,3 +20,16 @@ img{
 p{
   font-size: 1em;
 }
+
+/*===================================|
+|        Cuerpo de la página         |
+|===================================*/
+#contenido{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px;
+  background: #02010a;
+  font-family: 'Dancing';
+  
+}
