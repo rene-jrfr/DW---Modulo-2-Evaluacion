@@ -69,7 +69,35 @@ nav a{
   text-decoration: none;
 }
 
+/*===================================|
+|              Galería               |
+|===================================*/
+#galeria{
+  background: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+}
 
+#galeria figure{
+  flex: 1 1 23%;
+}
+#galeria figure img{
+  width: 100%;
+}
+
+/* Efectos */
+#img1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+#img3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+#galeria figure:nth-child(even){
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 
 /*===================================|
 |           Pie de Página            |
