@@ -1,0 +1,7 @@
+/*===================================|
+|        Tipografía del texto        |
+|===================================*/
+@font-face {
+  font-family: 'Dancing';
+  src: url("../fonts/DancingScript-Regular.otf");
+}
