@@ -5,3 +5,18 @@
   font-family: 'Dancing';
   src: url("../fonts/DancingScript-Regular.otf");
 }
+
+/*===================================|
+|         Estilos Generales          |
+|===================================*/
+html{
+  background: #02010a;
+}
+
+img{
+  box-shadow: 2px 2px 0 #02010a;
+}
+
+p{
+  font-size: 1em;
+}
