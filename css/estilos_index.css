@@ -68,3 +68,17 @@ nav a{
 .enlace{
   text-decoration: none;
 }
+
+/*===================================|
+|          Sección Central           |
+|===================================*/
+#cont_central{
+  background: #82c3a6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgCentral img{
+  width: 100%;
+}
