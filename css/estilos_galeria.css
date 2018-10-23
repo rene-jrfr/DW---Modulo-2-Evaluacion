@@ -131,7 +131,53 @@ nav a{
   text-decoration: none;
 }
 
+/*===================================|
+|           Media Queries            |
+|===================================*/
 
+@media (max-width:900px) {
+
+  /* Estilos genrales*/
+  #contenido{
+    width: 100%;
+  }
+
+  /* Cabecera */
+  #encabezado{
+    text-align: center;
+  }
+  #encabezado h1{
+    float: none;
+    margin: 0 1em 0 1em;
+    margin-top: 0.5em;
+  }
+  #encabezado nav{
+    float: none;
+    margin: 1em 0 1em 0;
+  }
+
+  /* Galería */
+  #galeria{
+    flex-direction: column;
+    text-align: center;
+  }
+  #galeria figure{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  /* Pie de Página */
+  #cont_footer{
+    flex-flow: column nowrap;
+  }
+
+  .pie{
+    width: 100%;
+    margin-left: 2em;
+  }
+}
 
 /*===================================|
 |            Animaciones             |
